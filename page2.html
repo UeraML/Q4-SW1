@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjord+One&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+Khojki&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Fjord+One&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Sans+Khojki&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Seatwork 1</title>
+</head>
+  <style>
+    body {
+         background-image: url(https://static.vecteezy.com/system/resources/previews/006/570/500/non_2x/abstract-wave-style-background-with-geometric-japanese-pattern-and-wavy-striped-lines-free-vector.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+    }
+     h1 {
+      font-family: "Arapey", serif;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 400%;
+     color: rgb(139,103,103);
+ }
+  h2 {
+   font-family: monospace;
+     font-weight: 100%;
+     color: white;
+     font-size: 600%;
+     
+ }
+ h3 {
+     font-family: "Roboto", sans-serif;
+     font-weight: 350;
+     font-style: normal;
+     font-size: 220%;
+ }
+
+  </style>
+  <body>
+    <center>
+    <img src="https://media.tenor.com/WkHfKco2MB4AAAAj/bella-money-money.gif">
+    <br><br>
+     <h1> The equivalent amount of 1,000 pesos in Yen is </h1>
+<br>
+  <p class="btn btn-light" id="page-two"></p> <br><br>
+  <a class="btn btn-info" href="index1.html"><h3>Back to Main Page</h3></a>
+  <script type="text/javascript">
+    let a = 1000;
+    let b = 2.69;
+    let c = a * b;
+
+    document.getElementById("page-two").innerHTML = `<h2 class="text-info">${c}</h2>`;
+  </script>
+</body>
+</html>
